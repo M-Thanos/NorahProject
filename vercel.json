@@ -1,5 +1,8 @@
 {
-     "routes": [
-       { "src": "/(.*)",  "dest": "/next-move.php" }
-     ]
-   }
+  "routes": [
+    { "src": "/(.*)",  "dest": "/robot-control-panel.php" },
+    { "src": "/next-move.php", "dest": "/next-move.php" },
+    { "src": "/db-connection.php", "dest": "/db-connection.php" },
+    { "src": "/next-m-style.css", "dest": "/next-m-style.css" }]
+}
+   
