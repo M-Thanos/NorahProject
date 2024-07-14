@@ -1,13 +1,13 @@
 {
   "functions": {
       "api/robot-control-panel.php": {
-          "runtime": "vercel-php@0.3.6"
+          "runtime": "vercel-php@0.7.0"
       },
       "api/next-move.php": {
-          "runtime": "vercel-php@0.3.6"
+          "runtime": "vercel-php@0.7.0"
       },
       "api/db-connection.php": {
-          "runtime": "vercel-php@0.3.6"
+          "runtime": "vercel-php@0.7.0"
       }
   }
 }
