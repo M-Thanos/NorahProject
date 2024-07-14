@@ -1,28 +1,10 @@
 {
+  "functions": {
+    "/next-move.php": {
+      "runtime": "vercel-php@0.5.2"
+    }
+  },
   "routes": [
-    { "src": "/(.*)",  "dest": "/index.html" },
-    { "src": "/next-move.php", "dest": "/next-move.php" },
-    { "src": "/db-connection.php", "dest": "/db-connection.php" },
-    { "src": "/next-m-style.css", "dest": "/next-m-style.css" }]
+    { "src": "/(.*)",  "dest": "/next-move.php" }
+]
 }
-
-{
-  "functions": {
-  "/robot-control-panel.php": {
-  "runtime": "vercel-php@0.6.0"
-  }
-  }
-  }
-
-  "functions": {
-    "/db-connection.php": {
-    "runtime": "vercel-php@0.6.0"
-    }
-    }
-    
-    "functions": {
-      "/next-move.php": {
-      "runtime": "vercel-php@0.6.0"
-      }
-      }
-   
