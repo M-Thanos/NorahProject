@@ -1,6 +1,6 @@
 {
   "functions": {
-    "next-move.php": {
+    "api/next-move.php": {
       "runtime": "vercel-php@0.5.2"
     }
   },
